@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     public Sprite[] hangman;
     public int hangmanSprite;
 
+    [SerializeField] private AudioSource failSound;
+
     private void Start()
     {
         StartGame();
@@ -80,6 +82,13 @@ public class GameManager : MonoBehaviour
         {
             wordParent.GetChild(i).GetComponent<Letter>().ShowLetter();
         }
+        failSound.Play();
+        ChottoAMinute();
         left = 0;
+    }
+
+    IEnumerator ChottoAMinute()
+    {
+        yield return new WaitForSeconds(2.5f);
     }
 }

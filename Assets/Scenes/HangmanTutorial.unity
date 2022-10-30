@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -201}
-  m_SizeDelta: {x: 164.9459, y: 82.7565}
+  m_AnchoredPosition: {x: -0.0000019073, y: -477.54}
+  m_SizeDelta: {x: 225.55, y: 124.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33979444
 MonoBehaviour:
@@ -292,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1100, y: 520}
+  m_AnchoredPosition: {x: 0.00000047684, y: 0.000051498}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300670928
 MonoBehaviour:
@@ -486,8 +486,8 @@ Canvas:
   m_GameObject: {fileID: 785852462}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 726925944}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -638,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020981, y: 212.71}
-  m_SizeDelta: {x: 258.8467, y: 94.5808}
+  m_AnchoredPosition: {x: -0.0000076294, y: 465.04}
+  m_SizeDelta: {x: 445.92, y: 149.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138099496
 MonoBehaviour:
@@ -688,10 +688,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 72
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -773,8 +773,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.608, y: 25.839504}
-  m_SizeDelta: {x: 836.78, y: 279.1611}
+  m_AnchoredPosition: {x: -11, y: 0.0000038147}
+  m_SizeDelta: {x: 1369.02, y: 542.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186124987
 MonoBehaviour:
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_text: The blank lines will appear as the number of characters of picked words
     from the list. You have to guess the letter to fill the blank. However, if you
     guess wrong, the part of hangman will be drawn and if the hangman is completed,
-    game over. When you guess right, the score will be added until you lose.
+    game over. When you guess right, you win the game.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -826,10 +826,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
+  m_fontSize: 60.4
   m_fontSizeBase: 33
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -961,10 +961,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1096,10 +1096,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 72
   m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1311,8 +1311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 470.8916, y: -218.25153}
-  m_SizeDelta: {x: 158.2168, y: 83.497}
+  m_AnchoredPosition: {x: 805.7999, y: -487.71002}
+  m_SizeDelta: {x: 308.4, y: 104.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998981076
 MonoBehaviour:
