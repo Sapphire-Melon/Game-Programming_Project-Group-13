@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour
     }
     public void StartMatch()
     {
-        SceneManager.LoadScene("Match1");
+        SceneManager.LoadScene("Matching");
     }
 
     public void StartHangman()
