@@ -5,29 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-   public void startGame ()
+   public void StartGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-   public void exitGame ()
+    
+   public void ExitGame ()
     {
         Debug.Log("See u next time!");
         Application.Quit();
     }
 
-    public void goBack()
+    public void GoBack()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("ModeSelect");
     }
 
-    public void hangmanMode()
+    public void HangmanMode()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-    }
-
-    public void goBackHangman()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene("HangmanTutorial");
     }
     public void StartMatch()
     {
@@ -37,6 +33,11 @@ public class Menu : MonoBehaviour
     public void StartHangman()
     {
         SceneManager.LoadScene("Hangman");
+    }
+
+    public void MatchingTutorial()
+    {
+        SceneManager.LoadScene("MatchingTutorial");
     }
 
 }
