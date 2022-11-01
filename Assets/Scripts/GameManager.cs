@@ -21,11 +21,16 @@ public class GameManager : MonoBehaviour
     public Sprite[] hangman;
     public int hangmanSprite;
 
+    public GameObject gameOverPopUp;
+
     [SerializeField] private AudioSource failSound;
+
+
 
     private void Start()
     {
         StartGame();
+        gameOverPopUp.SetActive(false);
     }
 
     public void StartGame()
@@ -82,13 +87,23 @@ public class GameManager : MonoBehaviour
         {
             wordParent.GetChild(i).GetComponent<Letter>().ShowLetter();
         }
-        failSound.Play();
-        ChottoAMinute();
-        left = 0;
+        Invoke("GameOver", 1.0f);
     }
 
-    IEnumerator ChottoAMinute()
+    void GameOver()
     {
-        yield return new WaitForSeconds(2.5f);
+        gameOverPopUp.SetActive(true);
+        failSound.Play();
+    }
+
+    public void RetryClick()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void BackToMainMemu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 }
