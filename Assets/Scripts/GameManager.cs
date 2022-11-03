@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
                     {
                         triedText.text += input.ToString().ToUpper() + ", ";
 
-                        hangmanSprite++;
                         if (hangmanSprite >= 11)
                         {
                             hangmanSprite = 11;
